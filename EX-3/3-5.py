@@ -10,8 +10,14 @@
 
 guest = ['Josh', 'Pedro', 'Tushar']
 
-print(f"Hey {list[0]}, please come on 12.02.22 ")
-print(f"Hey {list[1]}, please bring ur family too at my place on 12.02.22")
-print(f"hey {list[2]}, please be present at my place on 12.02.22")
+print(f"Hey {guest[0]}, please come on 12.02.22 ")
+print(f"Hey {guest[1]}, please bring ur family too at my place on 12.02.22")
+print(f"hey {guest[2]}, please be present at my place on 12.02.22")
 
-new_list = 
+print(f"\nSorry, {guest[0]} can't make it to the dinner.\n")
+
+guest[0] = 'Mike'
+
+print(f"Hey {guest[0]}, please come on 12.02.22 ")
+print(f"Hey {guest[1]}, please bring ur family too at my place on 12.02.22")
+print(f"Hey {guest[2]}, please be present at my place on 12.02.22")
