@@ -38,7 +38,18 @@ print(f"Hey {guest[5]}, please come to the dinner at my place on 12.02.22\n")
 
 print("Just found out that the new dinner table won't arrive in time for the table. So can only two people for dinner.\n")
 
+removed_guest = guest.pop(5)
+print(f"Sorry {removed_guest}, I can't invite you because the table is too small this time.")
+removed_guest = guest.pop(3)
+print(f"Sorry {removed_guest}, I wish I could have you but we ran out of seats.")
+removed_guest = guest.pop(2)
+print(f"Sorry {removed_guest}, I have to limit the guest list and can't invite you right now.")
+removed_guest = guest.pop(1)
+print(f"Sorry {removed_guest}, due to space constraints, I can't invite you this time.")
 
+print(f"Hey {guest[0]}, you are still invited to the dinner!")
+print(f"Hey {guest[1]}, you are still invited to the dinner!")
 
-
+del guest[0]
+del guest[0]
 
